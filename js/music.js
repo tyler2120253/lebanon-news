@@ -1,7 +1,7 @@
 var app = angular.module("app.music", ["ngRoute"]);
 app.config(function ($routeProvider) {
     $routeProvider.when("/music", {
-        templateUrl: "../veiw/music.html",
+        templateUrl: "./veiw/music.html",
         controller: "musicCtrl"
     })
 })
