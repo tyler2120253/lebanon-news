@@ -1,7 +1,7 @@
 var app = angular.module("app.youtube", ["ngRoute", "mySvr"]);
 app.config(function ($routeProvider) {
     $routeProvider.when("/youtube", {
-        templateUrl: "../veiw/youtube.html",
+        templateUrl: "./veiw/youtube.html",
         controller: "youtubeCtrl"
     })
 })
