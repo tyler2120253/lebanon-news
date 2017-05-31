@@ -1,7 +1,7 @@
 var app = angular.module("app.home", ["ngRoute"]);
 app.config(function ($routeProvider) {
     $routeProvider.when("/", {
-        templateUrl: "./veiw/home.html",
+        templateUrl: "../veiw/home.html",
         controller: "homeCtrl"
     })
 })
